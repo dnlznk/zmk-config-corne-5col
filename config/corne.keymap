@@ -15,15 +15,15 @@
 
 
 // home row mod
-#define HRM_A &hml LGUI A
-#define HRM_S &hml LALT S
-#define HRM_D &hml LSHIFT D
-#define HRM_F &hml LCTRL F
+#define HRM_A &hml &kp LGUI &kp A
+#define HRM_S &hml &kp LALT &kp S
+#define HRM_D &hml &kp LSHIFT &kp D
+#define HRM_F &hml &kp LCTRL &kp F
 
-#define HRM_J &hmr RCTRL J
-#define HRM_K &hmr RSHIFT K
-#define HRM_L &hmr RALT L
-#define HRM_SEMI &hmr RGUI SEMI
+#define HRM_J &hmr &kp RCTRL &kp J
+#define HRM_K &hmr &kp RSHIFT &kp K
+#define HRM_L &hmr &kp RALT &kp L
+#define HRM_SEMI &hmr &kp RGUI &kp SEMI
 
 / {
     chosen {
