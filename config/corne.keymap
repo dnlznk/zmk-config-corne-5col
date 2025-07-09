@@ -76,14 +76,9 @@
     };
 
     keymap {
-            compatible = "zmk,keymap";
+        compatible = "zmk,keymap";
 
         default_layer {
-// -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  E  |  R  |  T  |    |  Y  |  U    |  I  |  O  |  P  |
-// |  A  |  S  |  D  |  F  |  G  |    |  H  |  J    |  K  |  L  |  ;  |
-// |  Z  |  X  |  C  |  V  |  B  |    |  N  |  M    |  ,  |  .  |  /  |
-//           | TAB | LWR | SPC |    | ENT | RSE  | BACK |
             bindings = <
                 &kp Q  &kp W  &kp E   &kp R  &kp T         &kp Y   &kp U  &kp I      &kp O   &kp P
                 &HRM_A &HRM_S &HRM_D  &HRM_F &kp G         &kp H   &HRM_J &HRM_K     &HRM_L  &HRM_SEMI
@@ -92,11 +87,6 @@
             >;
         };
         lower_layer {
-// -----------------------------------------------------------------------------------------
-// |  1  |  2  |  3  |  4  |  5  |    |  6  |  7  |  8  |  9  |  0  |
-// |     |     |     |     |     |    | LFT | DWN |  UP | RGT |     |
-// | BT1 | BT2 | BT3 | BT4 | BT5 |    |     | RPT |     |     |     |
-//           |     |     | SPC |    | ENT |     |     |
             bindings = <
                 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5             &kp N6   &kp N7      &kp N8 &kp N9    &kp N0
                 &trans        &trans        &trans        &trans        &trans             &kp LEFT &kp DOWN    &kp UP &kp RIGHT &trans
@@ -106,11 +96,6 @@
         };
 
         raise_layer {
-// -----------------------------------------------------------------------------------------
-// |  !  |  @  |  #  |  $  |  %  |    |  ^  |  &  |  * |      |      |
-// |  <  |  [  |  {  |  (  |  '  |    |  "  |  )  |  }  |  ]  |  >  |
-// |     |  /  |  =  |  -  |  `  |    |  |  |  _  |  +  |  \  |  ~  |
-//           |     |     | SPC |    | ENT |     |     |
             bindings = <
                 &kp EXCL &kp AT   &kp HASH  &kp DLLR  &kp PRCNT         &kp CARET &kp AMPS  &kp ASTRK &none    &none
                 &kp LT   &kp LBKT &kp LBRC  &kp LPAR  &kp SQT           &kp DQT   &kp RPAR  &kp RBRC  &kp RBKT &kp GT
@@ -120,11 +105,6 @@
         };
 
         function_layer {
-// -----------------------------------------------------------------------------------------
-// |  F1 |  F2 |  F3 |  F4 |  F5 |    |  F6 |  F7 |  F8 |  F9 | F10 |
-// |     |PRINT| END | HOME| F11 |    | F12 |PG_UP|PG_DN| INS |     |
-// |     |     |BRI- |BRI+ |     |    |     |VOL+ |VOL- |VOLm |     |
-//           |     |     | SPC |    | ENT |     |     |
             bindings = <
                 &kp F1 &kp F2    &kp F3    &kp F4    &kp F5          &kp F6        &kp F7        &kp F8      &kp F9      &kp F10
                 &none  &kp PSCRN &kp END   &kp HOME  &kp F11         &kp F12       &kp PG_UP     &kp PG_DN   &kp INSERT  &none
