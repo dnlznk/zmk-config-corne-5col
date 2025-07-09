@@ -86,10 +86,10 @@
 //             | TAB | LWR | SPC |   | ENT | RSE  | BACK |
 // HRM_A  HRM_S  HRM_D   HRM_F  &kp G         &kp H   HRM_J  HRM_K     HRM_L   HRM_SEMI
             bindings = <
-   &kp Q &kp W &kp E &kp R &kp T     &kp Y &kp U &kp I     &kp O   &kp P
-   HRM_A HRM_S HRM_D HRM_F &kp G     &kp H HRM_J HRM_K     HRM_L   HRM_SEMI
-   &kp Z &kp X &kp C &kp V &kp B     &kp N &kp M &kp COMMA &kp DOT &kp FSLH
-         &kp TAB &mo 1 &kp SPACE     &kp RET &mo 2 &kp BACKSPACE
+   &kp Q &kp W &kp E   &kp R &kp T         &kp Y   &kp U &kp I         &kp O   &kp P
+   HRM_A HRM_S HRM_D   HRM_F &kp G         &kp H   HRM_J HRM_K         HRM_L   HRM_SEMI
+   &kp Z &kp X &kp C   &kp V &kp B         &kp N   &kp M &kp COMMA     &kp DOT &kp FSLH
+               &kp TAB &mo 1 &kp SPACE     &kp RET &mo 2 &kp BACKSPACE
             >;
         };
         lower_layer {
@@ -102,7 +102,7 @@
    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5           &kp N6   &kp N7      &kp N8 &kp N9    &kp N0
    &none        &none        &none        &none        &none            &kp LEFT &kp DOWN    &kp UP &kp RIGHT &none
    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &none    &key_repeat &none  &none     &none
-                             &trans       &trans       &kp SPACE        &kp RET  &mod 3      &trans
+                             &trans       &trans       &kp SPACE        &kp RET  &mo 3       &trans
             >;
         };
 
@@ -116,7 +116,7 @@
    &kp EXCL &kp AT   &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS  &kp ASTRK &none    &none
    &kp LT   &kp LBKT &kp LBRC  &kp LPAR  &kp SQT       &kp MINUS &kp RPAR  &kp RBRC  &kp RBKT &kp GT
    &none    &kp FSLH &kp EQUAL &kp MINUS &kp GRAVE     &kp PIPE  &kp UNDER &kp PLUS  &kp BSLH &kp TILDE
-                     &trans    &trans    &kp SPACE     &kp RET   &mod 3    &trans
+                     &trans    &trans    &kp SPACE     &kp RET   &mo 3     &trans
             >;
         };
 
@@ -130,7 +130,7 @@
    &kp F1 &kp F2    &kp F3       &kp F4       &kp F5        &kp F6       &kp F7       &kp F8       &kp F9     &kp F10
    &none  &kp PSCRN &kp END      &kp HOME     &kp F11       &kp F12      &kp PG_UP    &kp PG_DN    &kp INSERT &none
    &none  &none     &kp C_BRI_DN &kp C_BRI_UP &none         &none        &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE &none
-                    &trans       &trans       &kp SPACE     &kp RET      &mod 2       &trans
+                    &trans       &trans       &kp SPACE     &kp RET      &mo 2        &trans
             >;
         };
     };
