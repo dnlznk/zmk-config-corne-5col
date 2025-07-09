@@ -33,11 +33,11 @@
     combos {
         compatible = "zmk,combos";
 
-        q_w_esc_combo {
-            timeout-ms = <60>;
-            bindings = <&kp ESC>;
+        combo_esc {
+            timeout-ms = <50>;
             key-positions = <0 1>;
-        }
+            bindings = <&kp ESC>;
+        };
     };
 
     behaviors {
