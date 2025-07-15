@@ -70,7 +70,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
-            mods = <(MOD_LSFT)>;
+            mods = <MOD_LSFT>;
         };
 
         hml: home_row_mod_left {
