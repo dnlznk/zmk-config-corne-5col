@@ -43,19 +43,19 @@
         combo_ae {
             timeout-ms = <50>;
             key-positions = <3 5>;
-            bindings = <&kp DE_AE>;
+            bindings = <&kp DE_AE_UMLAUT>;
         };
         
         combo_oe {
             timeout-ms = <50>;
             key-positions = <3 21>;
-            bindings = <&kp DE_OE>;
+            bindings = <&kp DE_OE_UMLAUT>;
         };
         
         combo_ue {
             timeout-ms = <50>;
             key-positions = <3 19>;
-            bindings = <&kp DE_UE>;
+            bindings = <&kp DE_UE_UMLAUT>;
         };
 
         combo_sz {
@@ -70,7 +70,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
-            mods = <MOD_LSFT>;
+            mods = <(MOD_LSFT)>;
         };
 
         hml: home_row_mod_left {
