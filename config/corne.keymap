@@ -72,13 +72,13 @@ ZMK_HOLD_TAP(hmr,
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <LT2 LT4>;
+            key-positions = <LT3 LT4>;
             bindings = <&kp ESC>;
         };
         
         combo_ae {
             timeout-ms = <50>;
-            key-positions = <LT2 LT10>;
+            key-positions = <LT2 LM4>;
             bindings = <&de_ae>;
             layers = <DEFAULT>;
         };
@@ -99,7 +99,7 @@ ZMK_HOLD_TAP(hmr,
 
         combo_sz {
             timeout-ms = <50>;
-            key-positions = <LT11 LT20>;
+            key-positions = <LB4 LM3>;
             bindings = <&de_eszett>;
             layers = <DEFAULT>;
         };
